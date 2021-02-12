@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<ul style= "list-style: none;" align= "center">
+  <li><a href="Home">HOME</a></li>
+    <li><a href="About">ABOUT</a></li>
+      <li><a href="Book">BOOK</a></li>
+        <li><a href="Contact">CONTACT</a></li>
+</ul>
+    <title></title>
+  </head>
+  <body>
+<input type="text" name="search for this website" value="search for this website"></input>
+<button type="button" name="search" >search</button>
+<br>
+<table border ="3px" width= "600px">
+  <thead bgcolor = "yellow">
+  <tr>
+     <th>       </th>
+     <th> Withdraw </th>
+     <th> Credit </th>
+     <th> Balance </th>
+     </tr>
+    </thead>
+<tbody bgcolor ="pink">
+  <tr>
+    <td> September </td>
+    <td> $250 </td>
+    <td> $660 </td>
+    <td> $410 </td>
+  </tr>
+  </tbody>
+</table>
+
+<img src="nyc.jpg" alt="New york City" width="300" >
+
+
+<br>
+
+<div class="" style= "border:4px solid red; padding:4x;">
+<p font= "Arial"> This is the hotpink paragraph, font family is Arial</p>
+<p font= "Courier"> This is the hotpink paragraph, font family is Courier</p>
+<p font= "Corsiva"> This is the hotpink paragraph, font family is Corsiva</p>
+<button type="button" name="This_is_another_button" >This is another button</button>
+</div>
+<br>
+<textarea name="name" rows="8" cols="80"> p Study button, input, form and textarea elements/p</textarea>
+<br>
+<iframe src="https://badsoftwar3.github.io/Assingment%201%20website.html"  width="560" height="315"
+  </body>
+</html>
