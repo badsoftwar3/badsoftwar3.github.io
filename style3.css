@@ -1,0 +1,66 @@
+.heading{
+  color: white;
+  background-color: red;
+  border: 5px solid #FFD700 ;
+  font-style:oblique;
+  font-family: cursive;
+  margin:auto;
+}
+
+.pic1{
+  height: 300px;
+  width: 350px;
+  border: 5px solid #C0C0C0;
+  box-shadow: 5px 5px 10px purple;
+ float: left;
+ margin: 15px;
+
+}
+.para1{
+  color: #63ce87;
+  border: 5px solid blue;
+  border-width: 4px;
+  box-shadow: 5px 5px 10px orange;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 10px;
+  width: 30%;
+  float: left;
+
+
+}
+.pic2{
+  height: 300px;
+  width: 450px;
+  border:2px solid #941807;
+  float:right;
+  box-shadow: 5px 5px 10px purple;
+  margin-left: 15px;
+
+
+}
+.team{
+  border: 2px solid green;
+  margin: 0 auto;
+  padding: 20px;
+  height: 400px;
+}
+.list{
+  color: white;
+  list-style-type: none;
+  background-color: black;
+}
+.l1{
+  margin: 125px;
+  float: right;
+}
+.l2{
+  float: right;
+  margin: 50px;
+
+}
+.l3{
+  float: right;
+  margin: 35px;
+}
