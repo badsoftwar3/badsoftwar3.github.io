@@ -1,0 +1,137 @@
+.left{
+  border: 2px solid red;
+  height: 600px;
+  width: 400px;
+  float: left;
+
+
+
+}
+.leftimg{
+    height: 300px;
+    width: 300px;
+}
+.rightimg{
+      height: 300px;
+      width: 300px;
+}
+.imgc1{
+  height: 300px;
+  width: 500px;
+  margin-left: 15%;
+  border: 2px solid black;
+}
+#c1{
+  position: fixed;
+  right: 20%;
+  top: 10%;
+  width: 70%;
+  height: 80%;
+  background:rgba(0, 0, 0, 0.7);
+  display: none;
+  background-color: orange;
+}
+#c1.c1inside{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  padding: 10px 20px;
+  background: yellow;
+}
+#c1 a.close{
+  position: absolute;
+  top: 60%;
+  right: 20%;
+  font-size: 20px;
+  font-weight: 600;
+  color: blue;
+  background-color: purple;
+
+  text-decoration: none;
+}
+#c1:target{
+  display: block;
+}
+.center2 a{
+  padding: 10px 20px;
+  background: yellow;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration:none;
+  border-radius: 3px;
+}
+.right{
+  border: 2px solid red;
+  height: 600px;
+  width: 400px;
+  float: right;
+  top: 0;
+  
+}
+.imgc2{
+  height: 300px;
+  width: 500px;
+  margin-left: 13%;
+  border: 2px solid black;
+}
+.heading2{
+  background-color: pink;
+  color: white;
+  top: 0;
+}
+#c2{
+  position: fixed;
+  right: 20%;
+  top: 15%;
+  width: 70%;
+  height: 80%;
+  background: rgba(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  display:none;
+  background-color: lightblue;
+
+
+}
+#c2.c2inside{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  padding: 10px 20px;
+  background: yellow;
+
+}
+#c2 a.close2{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  background-color:white;
+  text-decoration: none;
+
+}
+#c2:target{
+  display: block;
+}
+.center a{
+  padding: 10px 20px;
+  background: yellow;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 3px;
+}
+div .c1inside p{
+  background-color: pink;
+
+}
+div .c2inside p{
+  background-color: pink;
+}
+.heading{
+  color: white;
+  background-color: pink;
+}
